@@ -1,0 +1,43 @@
+@media screen and (max-width: 800px) {
+    .container{
+        padding: 5px 50px;
+    }
+    .container .ul{
+        display: none;
+    }
+    .container .ul.active{
+        z-index: 888;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        top: 0;
+        right: 5px;
+        flex-direction: column;
+        background: rgba(17, 17, 17, .932);
+        transition: .1s ease;
+
+    }
+    .ul .button{
+        position: absolute;
+        background: url('./') no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 20px;
+        filter: invert(1);
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        transition: .6s ease;
+    }
+    button.active .div2{
+           position: absolute;
+    width: 3000px;
+    height: 300px;
+    top: 100px;
+    
+
+    }
+}
